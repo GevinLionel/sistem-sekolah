@@ -17,7 +17,7 @@
 
     <!-- Main  start -->
         <main class="flex-grow container mx-auto px-4 py-8">
-            <Div class="mt-8>
+            <Div class="mt-8 space-y-4">
                 <!-- card header start -->
                  <div class="bg-white shadow-md rounded-lg p-6 mb-6">
                     <h1 class="font-bold text-2xl">Daftar Siswa</h1>
@@ -44,7 +44,7 @@
                                         <td>1234567890</td>
                                         <td>081234567890</td>
                                         <td>
-                                            <div class="flex justify-center items-center">
+                                            <div class="flex justify-center items-center gap-2">
                                             <a href="/students/1" class="text-Green-500">Detail</a>
                                             <a href="/students/1/edit" class="text-yellow-500 ml-2">Edit</a>
                                             <a href="/students/1/delete" class="text-red-500 ml-2">Hapus</a>
