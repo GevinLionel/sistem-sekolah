@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tambah Siswa</title>
-    <link rel="stylesheet" href="/css/output.css">
-</head>
-<body class="flex flex-col min-h-screen bg-gray-100">
-    <!-- Header start -->
-     <header class="bg-blue-500 text-white p-4">
-        <div class="flex items-center justify-between container mx-auto px-4">
-        <a class="font-bold" href="/students" class="text-2xl font-bold">Daftar Siswa</a>
-        <a class="py-2 px-4  bg-white text-blue-500 px-3 py-1 rounded-lg" href="/students/create" class="ml-4 bg-white text-blue-500 px-3 py-1 rounded">Tambah Siswa</a>
-        </div>
-    <!-- <! -- Header end -->
-
-    <!-- Main  start -->
-        <main class="flex-grow container mx-auto px-4 py-8">
-            <Div class="mt-8 space-y-4">
+<Div class="mt-8 space-y-4">
                 <!-- card header start -->
                  <div class="bg-white shadow-md rounded-lg p-6 mb-6">
                     <h1 class="font-bold text-2xl">Tambah Siswa</h1>
@@ -52,17 +33,3 @@
                         </div>
                     <!-- card content end -->
             </Div>
-        </main>
-
-    <!-- Main end -->
-
-    <!-- Footer start -->
-        <footer class="bg-gray-800 text-white text-center p-4 text-center">
-            2026 - SMK Kristen Immanuel Pontianak - Sistem - Seoklah
-        </footer>
-    <!-- Footer end -->
-
-   
-    </header>
-</body>
-</html>
