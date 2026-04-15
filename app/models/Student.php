@@ -21,7 +21,8 @@ class Student extends Database
             $students[] = $student;
         }
         return $students;
-    }   
+    }
+}
 
 require_once '../app/core/Controller.php';
 require_once '../app/core/Student.php';
@@ -29,5 +30,15 @@ require_once '../app/core/Student.php';
 use App\Core\Controller;
 use App\Models\Student;
 
+
+class studentController extends Controller
+{
+    public function index()
+    {
+        $studentModel = new Student();
+        $students = $studentModel->getstudent();
+        $this->view('students.index', ['students' => $students]);
+    }
+}
 
 ?>
